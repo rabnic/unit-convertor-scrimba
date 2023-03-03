@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <section class="top">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <input id="input-value" type="text" value="1" >
+                <button id="btn-convert">Convert</button>
+            </section>
+            <section class="bottom">
+                <div class="box">
+                    <h3>Length (Meter/Feet)</h3>
+                    <p id="meter-feet"></p>
+                </div>
+                <div class="box">
+                    <h3>Volume (Liters/Gallons)</h3>
+                    <p id="liter-gallon"></p>
+                </div>
+                <div class="box">
+                    <h3>Mass (Kilograms/Pounds)</h3>
+                    <p id="kg-pound"></p>
+                </div>
+            </section>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
